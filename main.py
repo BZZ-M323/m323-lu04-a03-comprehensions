@@ -1,12 +1,8 @@
-def calculate():
-    """
-    calculates the total
-    :return: None
-    """
-    price = 15.75
-    quantity = 3  # TODO change quantity to 5
-    print(f'Total: {price * quantity}')
+def squares_of_even_numbers():
+    # TODO: Erstelle eine Liste der Quadrate aller geraden Zahlen von 1 bis 100
+    pass
 
 
 if __name__ == '__main__':
-    calculate()
+    result = squares_of_even_numbers()
+    print(result)
